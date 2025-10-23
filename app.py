@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import joblib
 st.title("2025 DSN Artificial 🚀intelligence Bootcamp")
-st.image("DSN.JPG")
+st.image("DSN.jpg")
 st.divider()
 st.header("African Youth Unemployment Distribution")
 path="youth_unemployment_africa.csv"
@@ -41,4 +41,5 @@ if st.button("predict"):
     st.write(predictions)
     st.balloons()
 st.divider()
+
 st.write("DSN is amazing")
